@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manasram M | Data Analyst Portfolio</title>
+    <meta name="description"
+        content="Portfolio of Manasram M, Data Analyst and Business Analyst specializing in data-driven insights, BI, and Generation AI.">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="dark-theme">
+
+    <!-- Animated Mesh Background -->
+    <div class="bg-animation">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Custom Dot Cursor -->
+    <div class="cursor-dot"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Manasram M</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#analytics">Approach</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="container hero-container">
+                <div class="hero-content fade-in">
+                    <h2 class="hero-title">Hello, I'm <span class="highlight">Manasram M</span></h2>
+                    <h3 class="hero-subtitle">Data Analyst | Business Analyst</h3>
+                    <p class="hero-text">
+                        I'm a Data Analyst passionate about transforming raw data into meaningful insights that support
+                        smarter business decisions. I enjoy building dashboards, performing exploratory data analysis,
+                        and applying machine learning techniques to solve real-world problems.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary"><i class='bx bx-briefcase'></i> View Projects</a>
+                        <a href="Manasram_Resume.jpg" download="Manasram_M_Resume.jpg" class="btn btn-secondary"><i
+                                class='bx bx-download'></i> Download Resume</a>
+                        <a href="#contact" class="btn btn-secondary"><i class='bx bx-envelope'></i> Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in">
+                    <div class="image-wrapper">
+                        <!-- We will use local AI generated image for profile photo -->
+                        <img src="profile-image.jpg" alt="Manasram M - Data Analyst" id="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <div class="container fade-in">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="lead">Focused on <span class="highlight">Data Analytics</span>, <span
+                                class="highlight">Business Intelligence</span>, and <span class="highlight">Generative
+                                AI</span>.</p>
+                        <p>I am deeply passionate about data-driven decision making. My goal is to bridge the gap
+                            between complex datasets and actionable business strategies.</p>
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <i class='bx bx-search-alt-2'></i>
+                                <span>Exploratory Data Analysis</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class='bx bx-bar-chart-alt-2'></i>
+                                <span>KPI Reporting</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class='bx bx-pie-chart-alt'></i>
+                                <span>Dashboard Development</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="container fade-in">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card"><i class='bx bxl-python'></i><span>Python</span></div>
+                    <div class="skill-card"><i class='bx bx-data'></i><span>SQL</span></div>
+                    <div class="skill-card"><i class='bx bxs-pie-chart-alt-2'></i><span>Power BI</span></div>
+                    <div class="skill-card"><i class='bx bxs-spreadsheet'></i><span>Excel</span></div>
+                    <div class="skill-card"><i class='bx bx-table'></i><span>Pandas</span></div>
+                    <div class="skill-card"><i class='bx bx-math'></i><span>NumPy</span></div>
+                    <div class="skill-card"><i class='bx bxs-data'></i><span>MySQL</span></div>
+                    <div class="skill-card"><i class='bx bxl-git'></i><span>Git</span></div>
+                    <div class="skill-card"><i class='bx bx-code-alt'></i><span>VS Code</span></div>
+                    <div class="skill-card"><i class='bx bxl-windows'></i><span>Azure</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Project & Projects -->
+        <section id="projects" class="projects section">
+            <div class="container fade-in">
+                <h2 class="section-title">Projects</h2>
+
+                <!-- Featured Project -->
+                <div class="featured-project">
+                    <div class="featured-content">
+                        <span class="featured-label">Featured Project</span>
+                        <h3 class="featured-title">AI-Based Pothole Detection System</h3>
+                        <div class="featured-desc">
+                            <p>A computer vision project built using YOLOv5 to detect potholes from road images. The
+                                system includes a Streamlit interface where users can upload road images and
+                                automatically detect potholes.</p>
+                        </div>
+                        <ul class="featured-features">
+                            <li><i class='bx bx-check'></i> YOLOv5 object detection model</li>
+                            <li><i class='bx bx-check'></i> Image-based pothole detection</li>
+                            <li><i class='bx bx-check'></i> Streamlit interface</li>
+                            <li><i class='bx bx-check'></i> Real-time visualization</li>
+                        </ul>
+                        <div class="featured-links">
+                            <a href="https://github.com/MANASRAM-M" target="_blank" class="btn btn-primary"><i
+                                    class='bx bxl-github'></i> View on GitHub</a>
+                            <a href="#case-studies" class="btn btn-secondary"><i class='bx bx-book-open'></i> View Case
+                                Study</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Projects -->
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3 class="project-title">AI-Based Pothole Detection System</h3>
+                        <p class="project-desc">A computer vision project using YOLOv5 for pothole detection with a
+                            Streamlit interface.</p>
+                        <div class="project-tech">
+                            <span>Python</span><span>YOLOv5</span><span>Streamlit</span>
+                        </div>
+                        <a href="https://github.com/MANASRAM-M" target="_blank" class="project-link"><i
+                                class='bx bxl-github'></i> View on GitHub</a>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">Waste Classification Machine Learning</h3>
+                        <p class="project-desc">Machine learning model built to classify waste categories to support
+                            automated waste segregation.</p>
+                        <div class="project-tech">
+                            <span>Python</span><span>ML Algorithms</span>
+                        </div>
+                        <a href="https://github.com/MANASRAM-M" target="_blank" class="project-link"><i
+                                class='bx bxl-github'></i> View on GitHub</a>
+                    </div>
+                    <div class="project-card">
+                        <h3 class="project-title">Personal Portfolio Website</h3>
+                        <p class="project-desc">A modern, responsive personal portfolio built with HTML, vanilla CSS,
+                            and JavaScript, featuring smooth animations.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                        </div>
+                        <a href="https://github.com/MANASRAM-M" target="_blank" class="project-link"><i
+                                class='bx bxl-github'></i> View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Studies -->
+        <section id="case-studies" class="case-studies section">
+            <div class="container fade-in">
+                <h2 class="section-title">Case Studies</h2>
+                <div class="case-studies-grid">
+                    <!-- Case Study 1 -->
+                    <div class="case-study-card">
+                        <h3>AI-Based Pothole Detection</h3>
+                        <div class="case-study-content">
+                            <div class="cs-item">
+                                <h4><i class='bx bx-target-lock'></i> Problem</h4>
+                                <p>Road damage and potholes create safety risks and infrastructure issues.</p>
+                            </div>
+                            <div class="cs-item">
+                                <h4><i class='bx bx-directions'></i> Approach</h4>
+                                <p>Used YOLOv5 computer vision model to detect potholes from road images.</p>
+                            </div>
+                            <div class="cs-item">
+                                <h4><i class='bx bx-code-alt'></i> Technology</h4>
+                                <p>Python, YOLOv5, OpenCV, Streamlit.</p>
+                            </div>
+                            <div class="cs-item">
+                                <h4><i class='bx bx-line-chart'></i> Outcome</h4>
+                                <p>Demonstrates how computer vision can support road monitoring systems.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Case Study 2 -->
+                    <div class="case-study-card">
+                        <h3>Waste Classification Using Machine Learning</h3>
+                        <div class="case-study-content">
+                            <div class="cs-item">
+                                <h4><i class='bx bx-target-lock'></i> Problem</h4>
+                                <p>Waste segregation is inefficient without automated classification.</p>
+                            </div>
+                            <div class="cs-item">
+                                <h4><i class='bx bx-directions'></i> Approach</h4>
+                                <p>Built a machine learning model to classify waste categories.</p>
+                            </div>
+                            <div class="cs-item">
+                                <h4><i class='bx bx-code-alt'></i> Technology</h4>
+                                <p>Python, machine learning algorithms.</p>
+                            </div>
+                            <div class="cs-item">
+                                <h4><i class='bx bx-line-chart'></i> Outcome</h4>
+                                <p>Demonstrates AI-driven sustainability solutions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Analytics Approach -->
+        <section id="analytics" class="analytics section">
+            <div class="container fade-in">
+                <h2 class="section-title">Analytics Approach</h2>
+                <div class="approach-grid">
+                    <div class="approach-card">
+                        <div class="approach-icon"><i class='bx bx-search-alt'></i></div>
+                        <h3>Data Understanding</h3>
+                        <p>Analyzing datasets, verifying data quality, and identifying initial patterns to understand
+                            the business context.</p>
+                    </div>
+                    <div class="approach-card">
+                        <div class="approach-icon"><i class='bx bx-git-branch'></i></div>
+                        <h3>Data Analysis</h3>
+                        <p>Cleaning data, performing exploratory data analysis (EDA), and building analytical or machine
+                            learning models.</p>
+                    </div>
+                    <div class="approach-card">
+                        <div class="approach-icon"><i class='bx bx-bulb'></i></div>
+                        <h3>Insight Generation</h3>
+                        <p>Translating complex analysis into actionable business insights and intuitive dashboards for
+                            stakeholders.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education -->
+        <section id="experience" class="experience section">
+            <div class="container fade-in">
+                <div class="split-section">
+                    <!-- Experience -->
+                    <div class="experience-col">
+                        <h2 class="section-title">Experience</h2>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <span class="timeline-date">Internship</span>
+                                <h3>Data Analytics Intern</h3>
+                                <h4 class="timeline-company"><i class='bx bxs-building'></i> Luminar Technolab, Kochi
+                                </h4>
+                                <ul class="timeline-desc">
+                                    <li>Analyzed real-world datasets to generate business insights.</li>
+                                    <li>Built dashboards using Power BI.</li>
+                                    <li>Used Python and SQL for rigorous data analysis.</li>
+                                </ul>
+                            </div>
+                            <div class="timeline-item">
+                                <span class="timeline-date">Internship</span>
+                                <h3>AI & Sustainability Intern</h3>
+                                <h4 class="timeline-company"><i class='bx bxs-building'></i> Edunet Foundation</h4>
+                                <ul class="timeline-desc">
+                                    <li>Developed machine learning-based waste segregation system.</li>
+                                    <li>Applied AI techniques to solve modern sustainability challenges.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="education-col">
+                        <h2 class="section-title">Education</h2>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <span class="timeline-date">2022 &ndash; 2025</span>
+                                <h3>Bachelor of Computer Applications (BCA)</h3>
+                                <h4>Data Science Specialization</h4>
+                                <h4 class="timeline-company"><i class='bx bxs-graduation'></i> Acharya Institute of
+                                    Graduate Studies (Bangalore City University)</h4>
+                                <p class="timeline-text">Studied programming, analytics, machine learning fundamentals,
+                                    and data science concepts.</p>
+                            </div>
+
+                            <h3 class="cert-title">Certifications</h3>
+                            <div class="timeline-item cert-item">
+                                <h3>IBM Data Science Certification</h3>
+                                <div class="cert-icon"><i class='bx bx-award'></i> Professional Certificate</div>
+                            </div>
+                            <div class="timeline-item cert-item">
+                                <h3>Advanced Python Certification</h3>
+                                <div class="cert-icon"><i class='bx bx-award'></i> Reconnaissance</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container fade-in">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        <p>I am always open to discussing data-driven projects, opportunities, or meaningful
+                            partnerships.</p>
+
+                        <div class="info-items">
+                            <div class="info-item">
+                                <div class="icon-box"><i class='bx bx-envelope'></i></div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <a href="mailto:manasram9633@gmail.com">manasram9633@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="icon-box"><i class='bx bxl-linkedin'></i></div>
+                                <div>
+                                    <h4>LinkedIn</h4>
+                                    <a href="https://www.linkedin.com/in/manasram-m-data-business-analyst"
+                                        target="_blank">Profile Link</a>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="icon-box"><i class='bx bxl-github'></i></div>
+                                <div>
+                                    <h4>GitHub</h4>
+                                    <a href="https://github.com/MANASRAM-M" target="_blank">github.com/MANASRAM-M</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <form action="#" method="POST"
+                            onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                            <div class="input-group">
+                                <input type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" placeholder="Subject" required>
+                            </div>
+                            <div class="input-group">
+                                <textarea placeholder="Message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Send Message <i
+                                    class='bx bx-send'></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Manasram M. Built with modern web technologies.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/MANASRAM-M" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/manasram-m-data-business-analyst" target="_blank"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="mailto:manasram9633@gmail.com"><i class='bx bx-envelope'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
