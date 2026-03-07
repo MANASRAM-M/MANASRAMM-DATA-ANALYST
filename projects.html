@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Projects | Manasram M</title>
+    <meta name="description" content="A comprehensive list of projects and case studies by Manasram M.">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /* Projects Page Specific Adjustments */
+        body {
+            padding-top: 100px;
+        }
+
+        .page-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .page-title {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .page-subtitle {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text-secondary);
+            transition: var(--transition);
+            margin-bottom: 2rem;
+        }
+
+        .back-link:hover {
+            color: var(--accent-color);
+            transform: translateX(-5px);
+        }
+
+        /* Grid override for Projects page */
+        .projects-page-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        @media screen and (max-width: 992px) {
+            .projects-page-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .projects-page-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .page-title {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body class="dark-theme">
+
+    <!-- Animated Mesh Background -->
+    <div class="bg-animation"></div>
+
+    <!-- Custom Dot Cursor -->
+    <div class="cursor-dot"></div>
+
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Manasram M</a>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="index.html#analytics">Approach</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </nav>
+
+    <main class="fade-in">
+        <section class="section pt-0">
+            <div class="container">
+                <a href="index.html" class="back-link"><i class='bx bx-left-arrow-alt'></i> Back to Home</a>
+
+                <div class="page-header">
+                    <h1 class="page-title">All Projects</h1>
+                    <p class="page-subtitle">A collection of my work focusing on Data Analytics, Business Intelligence,
+                        and Machine Learning.</p>
+                </div>
+
+                <div class="projects-page-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card fade-in">
+                        <h3 class="project-title">Customer Churn Prediction & Retention Analytics</h3>
+                        <p class="project-desc">Predictive model designed to identify high-risk customers, allowing
+                            businesses to proactively improve retention strategies.</p>
+                        <div class="project-tech">
+                            <span>Python</span><span>Scikit-learn</span><span>Pandas</span><span>Power BI</span>
+                        </div>
+                        <a href="https://github.com/MANASRAM-M" target="_blank" class="project-link"><i
+                                class='bx bxl-github'></i> View on GitHub</a>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card fade-in">
+                        <h3 class="project-title">Sales Forecasting & Demand Prediction Model</h3>
+                        <p class="project-desc">Time series forecasting system predicting future sales demand based on
+                            historical data and seasonal trends.</p>
+                        <div class="project-tech">
+                            <span>Python</span><span>ARIMA / Prophet</span><span>Pandas</span><span>Matplotlib</span>
+                        </div>
+                        <a href="https://github.com/MANASRAM-M" target="_blank" class="project-link"><i
+                                class='bx bxl-github'></i> View on GitHub</a>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card fade-in">
+                        <h3 class="project-title">Advanced HR Workforce Analytics Dashboard</h3>
+                        <p class="project-desc">Comprehensive dashboard analyzing employee performance, attrition rates,
+                            and overall workforce health.</p>
+                        <div class="project-tech">
+                            <span>Python</span><span>Pandas</span><span>Power BI</span><span>SQL</span>
+                        </div>
+                        <a href="https://github.com/MANASRAM-M" target="_blank" class="project-link"><i
+                                class='bx bxl-github'></i> View on GitHub</a>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card fade-in">
+                        <h3 class="project-title">Financial Risk & Credit Scoring Analysis</h3>
+                        <p class="project-desc">Machine learning solution estimating credit risk profiles and scoring
+                            individual applicants based on financial history.</p>
+                        <div class="project-tech">
+                            <span>Python</span><span>Machine Learning</span><span>Logistic
+                                Regression</span><span>SQL</span>
+                        </div>
+                        <a href="https://github.com/MANASRAM-M" target="_blank" class="project-link"><i
+                                class='bx bxl-github'></i> View on GitHub</a>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card fade-in">
+                        <h3 class="project-title">E-commerce Customer Segmentation</h3>
+                        <p class="project-desc">RFM analysis clustering e-commerce customers into profitable segments to
+                            drive targeted marketing campaigns.</p>
+                        <div class="project-tech">
+                            <span>Python</span><span>K-Means Clustering</span><span>Pandas</span><span>Seaborn</span>
+                        </div>
+                        <a href="https://github.com/MANASRAM-M" target="_blank" class="project-link"><i
+                                class='bx bxl-github'></i> View on GitHub</a>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="project-card fade-in">
+                        <h3 class="project-title">Business Intelligence Sales Performance Dashboard</h3>
+                        <p class="project-desc">Interactive end-to-end sales dashboard built for tracking KPIs, regional
+                            performance, and revenue growth.</p>
+                        <div class="project-tech">
+                            <span>Power BI</span><span>SQL</span><span>Data Modeling</span><span>DAX</span>
+                        </div>
+                        <a href="https://github.com/MANASRAM-M" target="_blank" class="project-link"><i
+                                class='bx bxl-github'></i> View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Manasram M. Built with modern web technologies.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/MANASRAM-M" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/manasram-m-data-business-analyst" target="_blank"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="mailto:manasram9633@gmail.com"><i class='bx bx-envelope'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
