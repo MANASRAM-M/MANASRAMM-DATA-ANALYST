@@ -158,10 +158,33 @@ p {
 }
 
 .logo {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: -0.5px;
     color: var(--text-primary);
+    display: inline-flex;
+    align-items: baseline;
+    transition: transform 0.2s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.logo .blue-dot {
+    color: var(--accent-color);
+    background: linear-gradient(135deg, #60a5fa, #2563eb);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 8px rgba(59, 130, 246, 0.4);
+    margin-left: 1px;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        font-size: 1.25rem;
+    }
 }
 
 .nav-links {
