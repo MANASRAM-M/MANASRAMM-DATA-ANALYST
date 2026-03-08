@@ -1073,6 +1073,10 @@ p {
 
 /* Responsive */
 @media screen and (max-width: 992px) {
+    .hero {
+        padding-top: 140px;
+    }
+
     h2 {
         font-size: 2rem;
     }
@@ -1136,6 +1140,10 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+    .hero {
+        padding-top: 160px;
+    }
+
     .nav-links {
         position: fixed;
         Top: 0;
