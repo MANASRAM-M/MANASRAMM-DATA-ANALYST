@@ -32,6 +32,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -83,11 +84,14 @@ p {
 .container {
     max-width: var(--container-width);
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 32px;
+    /* Desktop and default */
 }
 
 .section {
-    padding: var(--section-padding);
+    padding: 20px 0;
+    margin-top: 80px;
+    /* Desktop default */
 }
 
 /* Buttons */
@@ -154,7 +158,7 @@ p {
     align-items: center;
     max-width: var(--container-width);
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0 32px;
 }
 
 .logo {
@@ -554,7 +558,7 @@ p {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
@@ -1120,6 +1124,15 @@ p {
         gap: 1rem;
         text-align: center;
     }
+
+    .container,
+    .nav-container {
+        padding: 0 32px;
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1145,5 +1158,25 @@ p {
     .hamburger {
         display: block;
         z-index: 1001;
+    }
+
+    .container,
+    .nav-container {
+        padding: 0 16px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section {
+        margin-top: 40px;
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-title {
+        font-size: 2.5rem;
     }
 }
