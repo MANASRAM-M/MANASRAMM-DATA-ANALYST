@@ -995,7 +995,7 @@ p {
     overflow: hidden;
     background-color: transparent;
     /* Changed from #000 to cleanly overlay */
-    opacity: 0.25;
+    opacity: 0.70;
     /* Heavily fade the 3D grid and gradients */
     pointer-events: none;
     /* Let clicks pass through if needed, though mouse tracking usually works */
