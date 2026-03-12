@@ -116,9 +116,9 @@ document.addEventListener('DOMContentLoaded', () => {
             scaleMobile: 1.00,
             color: 0x3b82f6,      // Matches --accent-color
             backgroundColor: 0x050505, // Matches --bg-primary
-            points: 15.00,        // Increased for richer mesh
-            maxDistance: 22.00,   // More interconnecting lines
-            spacing: 16.00,       // Tighter spacing
+            points: 11.00,        // Middle ground for medium mesh
+            maxDistance: 20.00,   // Balanced interconnecting lines
+            spacing: 20.00,       // Balanced spacing
             showDots: true
         });
     }
