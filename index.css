@@ -6,8 +6,10 @@
     --bg-card-hover: rgba(38, 39, 46, 0.6);
 
     --text-primary: #f8f9fa;
-    --text-secondary: #a1a1aa;
-    --text-muted: #71717a;
+    --text-secondary: #e4e4e7;
+    /* Brightened for readability against 3D mesh */
+    --text-muted: #a1a1aa;
+    /* Shifted old secondary to muted */
 
     --accent-color: #3b82f6;
     /* Modern Blue */
