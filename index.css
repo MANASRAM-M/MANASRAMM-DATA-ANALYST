@@ -1148,7 +1148,8 @@ p {
 
 @media screen and (max-width: 768px) {
     .hero {
-        padding-top: 160px;
+        padding-top: 200px;
+        /* Increased to add more space from navbar as requested */
     }
 
     .nav-links {
@@ -1191,6 +1192,11 @@ p {
 }
 
 @media screen and (max-width: 480px) {
+    .hero {
+        padding-top: 220px;
+        /* Even more breathing room on small phones */
+    }
+
     .hero-title {
         font-size: 2.5rem;
     }
