@@ -993,7 +993,12 @@ p {
     height: 100vh;
     z-index: -10;
     overflow: hidden;
-    background-color: #000;
+    background-color: transparent;
+    /* Changed from #000 to cleanly overlay */
+    opacity: 0.25;
+    /* Heavily fade the 3D grid and gradients */
+    pointer-events: none;
+    /* Let clicks pass through if needed, though mouse tracking usually works */
     background-image:
         radial-gradient(ellipse at top, rgba(29, 78, 216, 0.15), transparent 50%),
         radial-gradient(ellipse at bottom left, rgba(124, 58, 237, 0.15), transparent 50%),
